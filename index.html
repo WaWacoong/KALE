@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="./ham-menu.js"></script>
+    <title>About kale</title>
+    <style>
+       .swiper-slide{
+        width: 100%;
+        max-width: 667px;
+       }
+       .swiper-wrapper{
+        width: 100%;
+        max-width: 667px;
+       }
+       .swiper{
+        width: 100%;
+        max-width: 667px;
+        height: 444px;
+       }
+       .swiper-slide img{
+        width: 100%;
+        max-width: 667px;
+       }
+       .swiper1{
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        height: 544px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+       }
+       .swiper-pagination-bullet-active{
+        background: black;
+       }
+       .swiper-button-prev:after,.swiper-button-next:after{
+        content: none;
+       }
+       .clickline{
+        margin-top: 120px;
+       }
+       @media screen and (max-width: 834px){
+        .swiper-slide, .swiper-wrapper{
+            max-width: 313px;
+        }
+        .swiper{
+            max-width: 313px;
+            height: 460px;
+        }
+        .swiper-slide img{
+            height: 460px;
+        }
+        .swiper1{
+            max-width: 400px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: unset;
+        }
+        .tablet{
+            position: relative;
+        }
+
+       }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logokale">
+            <img src="./logokale.png" alt="logokale">
+        </div>
+            <div class="menu" id="myMenu">
+                <div><a href="./index.html">ABOUT KALE</a></div>
+                <div><a href="./page2.html">KALE MENU</a></div>
+                <div><a href="./page3.html">ABOUT US</a></div>
+                <div><a href="./page4.html">ORDER</a></div>
+            </div>
+            <div class="Vector">
+                <a href="https://lin.ee/RQRtq0f"><img src="./Vector.png" alt="Vector"></a>
+            </div>
+        
+        <div class="ham-menu" onclick="toggleHam(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        
+    </div>
+    <div class="banner">
+        <img class="item1" src="./page4.png" alt="page1">
+        <img class="item2" src="./WELL KALE.png" alt="WELL KALE">
+        <img class="item3" src="./pag1.1.png" alt="page1.1">
+    </div>
+    <div class="tablet">
+        <div class="Aboutkale">ABOUT KALE</div>
+    <div class="about1">
+        เคล &nbsp;&nbsp;(Kale) &nbsp;&nbsp;หรือเรียกอีกชื่อว่า &nbsp;&nbsp;คะน้าใบหยัก &nbsp;&nbsp;หน้าตาคล้าย &nbsp;ๆ &nbsp;&nbsp;คะน้าผสมบรอกโคลี <br>เป็นผักตระกูลเดียวกับกะหล่ำและบรอกโคลี ที่แพร่หลายในไทยคือ เคลใบหยักสีเขียว (Curly<br> Kale หรือ Scottish Kale)
+    </div>
+    <div class="kalebenefit">ประโยชน์ของผักเคล</div>
+    <ul>
+        <li>มีใยอาหารสูงและแคลอรีต่ำ เหมาะสำหรับคนลดน้ำหนัก</li>
+        <li>มีวิตามินหลากหลายเช่นวิตามินซี ช่วยลดการอักเสบในร่างกาย วิตามินเค<br> ช่วยในการแข็งตัวของเลือดและความแข็งแรงของกระดูก</li>
+        <li>มีลูทีน (Lutein) และซีแซนทีน (Zeaxanthin) <br>ช่วยบำรุงสายตาและป้องกันจอประสาทตาจากรังสียูวี</li>
+        <li>มีคลอโรฟิลล์ ช่วยป้องกันไม่ให้ร่างกายดูดซึมสารก่อมะเร็งจากอาหารประเภทปิ้งย่าง <br>ช่วยลดความเสี่ยงของโรคมะเร็ง</li>
+        <li>มีโพแทสเซียม ช่วยลดความเสี่ยงของโรคความดันโลหิตสูง โรคหัวใจและหลอดเลือด</li>
+    </ul>
+    <div class="swiper1">
+        <div class="swiper ">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./kale1.jpg" alt="kale1"></div>
+              <div class="swiper-slide"><img src="./Kale2.jpg" alt="Kale2"></div>
+              <div class="swiper-slide"><img src="../kale3.jpg" alt="kale3"></div>
+              <div class="swiper-slide"><img src="./kale1.jpg" alt="kale1"></div>
+              <div class="swiper-slide"><img src="./Kale2.jpg" alt="Kale2"></div>
+              <div class="swiper-slide"><img src="../kale3.jpg" alt="kale3"></div>
+              <div class="swiper-slide"><img src="./kale1.jpg" alt="kale1"></div>
+            </div>
+        </div> 
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+          
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+            <svg width="24" height="36" viewBox="0 0 24 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.0152192 17.9283C0.014437 18.3207 0.100501 18.7095 0.268472 19.0722C0.436443 19.4349 0.683007 19.7644 0.994001 20.0417L17.7144 34.9964C18.0249 35.2741 18.3936 35.4944 18.7994 35.6449C19.2052 35.7954 19.6403 35.8731 20.0797 35.8734C20.5191 35.8738 20.9543 35.7969 21.3604 35.6471C21.7665 35.4973 22.1355 35.2775 22.4465 35.0003C22.7574 34.7232 23.0042 34.394 23.1726 34.0317C23.3411 33.6693 23.428 33.2809 23.4283 32.8885C23.4286 32.4962 23.3424 32.1076 23.1745 31.745C23.0067 31.3824 22.7605 31.0528 22.45 30.7751L8.09386 17.9351L22.4715 5.11903C22.7824 4.84186 23.0292 4.51271 23.1976 4.15037C23.3661 3.78803 23.4529 3.39959 23.4533 3.00724C23.4536 2.6149 23.3674 2.22632 23.1995 1.86369C23.0317 1.50107 22.7855 1.17151 22.475 0.893819C22.1645 0.616128 21.7958 0.395746 21.39 0.24526C20.9842 0.094774 20.5491 0.017132 20.1097 0.0167645C19.6703 0.016397 19.2351 0.0933111 18.829 0.243118C18.4229 0.392925 18.0539 0.61269 17.7429 0.889862L0.997535 15.8165C0.686077 16.0934 0.438962 16.4224 0.270385 16.7849C0.101808 17.1473 0.0150935 17.5359 0.0152192 17.9283Z" fill="#5C5F62"/>
+                </svg>
+                
+        </div>
+        <div class="swiper-button-next">
+            <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.9315 17.9458C20.9315 18.3382 20.8541 18.7268 20.7035 19.0893C20.553 19.4517 20.3323 19.7808 20.0542 20.0577L5.10102 34.9858C4.82335 35.263 4.49381 35.4828 4.1312 35.6327C3.7686 35.7825 3.38003 35.8595 2.98768 35.8591C2.59533 35.8588 2.20689 35.7812 1.84453 35.6307C1.48218 35.4803 1.153 35.26 0.875803 34.9823C0.598603 34.7046 0.378808 34.3751 0.228966 34.0125C0.0791243 33.6499 0.00217074 33.2613 0.0024989 32.869C0.00282706 32.4766 0.0804305 32.0882 0.230879 31.7258C0.381327 31.3634 0.601673 31.0343 0.879337 30.7571L13.7181 17.9398L0.900796 5.10099C0.623596 4.82333 0.4038 4.49378 0.253959 4.13118C0.104117 3.76857 0.0271635 3.38 0.0274917 2.98765C0.0278198 2.5953 0.105423 2.20686 0.255871 1.84451C0.406319 1.48215 0.626665 1.15298 0.904328 0.875779C1.18199 0.598579 1.51154 0.378781 1.87414 0.228938C2.23675 0.0790948 2.62532 0.0021416 3.01767 0.00246976C3.41002 0.00279792 3.79846 0.080401 4.16081 0.230851C4.52317 0.3813 4.85234 0.601649 5.12954 0.879313L20.0577 15.8325C20.3354 16.1098 20.5555 16.4393 20.7054 16.8019C20.8554 17.1646 20.9322 17.5533 20.9315 17.9458Z" fill="#5C5F62"/>
+                </svg>
+                
+        </div>
+    </div>
+    </div>
+    
+    <div class="clickline">
+        <a href="https://lin.ee/RQRtq0f"><img src="./clickline.png" alt="clickline"></a>
+    </div>
+    <footer>
+        <div class="footer">
+            <img src="./iconsocial.png" alt="iconsocial">
+        </div>
+        <div class="footer1">
+            E-mail :<span> s6402041620019@email.kmutnb.ac.th</span> Website : <span>www.wellkale.com</span><br>
+            โทรศัพท์ : 0623720317 โทรศัพท์ : 0961250465
+        </div>
+        <div class="footer2">
+            มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518<br> 
+            ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง เขตบางซื่อ<br>
+            กรุงเทพมหานคร 10800<br>
+        </div>
+    </footer>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 2500,
+  },
+
+});
+    </script>
+</body>
+</html>
