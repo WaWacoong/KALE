@@ -195,12 +195,20 @@ ul{
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
-@media only screen and (min-width: 834px){
+  .kalepage3{
+    display: none;
+  }
+  .wellkalepage3{
+    display: none;
+    font-size: 24px;
+    font-family: 'Roboto';
+  }
+@media only screen and (min-width: 835px){
     .ham-menu{
         display: none;
     }
 }
-@media screen and (max-width: 834px){
+@media screen and (max-width: 835px){
     .menu, .Vector{
         display: none;
     }
@@ -223,10 +231,10 @@ ul{
         text-align: center;
     }
     .banner{
-        height: 326px;
+        height: 326px !important;
     }
     .banner .item3{
-        max-width: 315px;
+        max-width: 315px !important;
         left: -100px;
         top: -30px;
     }
@@ -260,10 +268,139 @@ ul{
     .clickline img, .clickline{
        max-width: 304px; 
     }
+    .clickline{
+        margin-top: 50px;
+    }
     .footer{
         display: none;
     }
     .footer1, .footer2{
         font-size: 10px;
+        margin-left: 32px;
     }
+    .footer2{
+        margin-top: 20px;
+    }
+    footer{
+        max-width: 834px;
+        height: 174px;
+        margin-top: 56px;
+    }
+    .page2about{
+        max-width: 680px;
+        margin-left: 90px;
+    }
+    .kalepage, .kalepage img{
+       max-width: 304px; 
+       height: 109px;
+    }
+    .menukale{
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .topickale{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .kalemini{
+        font-size: 13px;
+    }
+    .Menu{
+        margin-top: 50px;
+    }
+    .banner .item2_2{
+        display: none;
+    }
+    .kalepage3{
+        display: block;
+        left: 300px !important;
+        top: 150px !important;
+    }
+    .banner .kalepage3-1{
+        left: 500px !important;
+        top: -100px;
+        transform: rotate(124deg);
+    }
+    .icon3 img, .icon3{
+        max-width: 59px !important;
+    }
+    .wellkalepage3{
+        display: block;
+    }
+    .about3{
+        font-size: 16px !important;
+        margin-left: 50px !important;
+        max-width: 400px !important;
+
+    }
+    .content-page3{
+        display: flex;
+    }
+    .Icon-page3{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .Icon{
+        margin-left: 70px !important;
+        margin-top: 10px !important;
+    }
+    .textpage4{
+        font-size: 40px;
+    }
+    .oderpage4 img{
+        max-width: 229px;
+    }
+    .oderpage4{
+        max-width: 229px;
+        height: 229px;
+    }
+    .border{
+        max-width: 219px;
+        height: 155px;
+        bottom: 40px;
+    }
+    .Oder{
+        gap: 40px;
+        margin-top: 10px;
+    }
+    .lineclickpage4 img{
+        max-width: 396px;
+    }
+    .lineclickpage4{
+        margin-top: 30px;
+    }
+    .interexpress img{
+        max-width: 426px;
+    }
+    .interexpress{
+        max-width: 426px;
+        margin-top: 30px;
+    }
+    .service{
+        margin-left: 109px !important;
+        margin-top: 30px !important;
+    }
+}
+@media only screen and (max-width: 391px){
+    .ham-menu{
+        right: -2rem;
+    }
+    .banner{
+        height: 200px !important;
+    }
+    .banner .item1{
+        max-width: 224px;
+        top: 50px;
+    }
+    .banner .item2{
+        max-width: 122px;
+        top: 100px;
+        left: 20px;
+    }
+    .banner .item3{
+        max-width: 230px !important;
+    }
+
 }
