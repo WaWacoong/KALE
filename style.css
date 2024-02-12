@@ -206,12 +206,18 @@ ul{
   .wellkale2{
     display: none;
   }
+  .Aboutkale3{
+    display: none;
+  }
 @media only screen and (min-width: 835px){
     .ham-menu{
         display: none;
     }
 }
 @media screen and (max-width: 835px){
+    .Aboutkale3{
+        display: block;
+    }
     .wellkale1{
         display: none;
     }
@@ -278,7 +284,7 @@ ul{
        max-width: 304px; 
     }
     .clickline{
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .footer{
         display: none;
@@ -296,26 +302,26 @@ ul{
         margin-top: 56px;
     }
     .page2about{
-        max-width: 680px;
+        max-width: 680px !important;
         margin-left: 90px;
     }
     .kalepage, .kalepage img{
-       max-width: 304px; 
-       height: 109px;
+       max-width: 304px !important; 
+       height: 109px !important;
     }
     .menukale{
-        gap: 40px;
-        margin-top: 20px;
+        gap: 40px !important;
+        margin-top: 20px !important;
     }
     .topickale{
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 20px !important;
+        margin-top: 20px !important;
     }
     .kalemini{
-        font-size: 13px;
+        font-size: 13px !important;
     }
     .Menu{
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
     .banner .item2_2{
         display: none;
@@ -356,36 +362,36 @@ ul{
         margin-top: 10px !important;
     }
     .textpage4{
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .oderpage4 img{
-        max-width: 229px;
+        max-width: 229px !important;
     }
     .oderpage4{
-        max-width: 229px;
-        height: 229px;
+        max-width: 229px !important;
+        height: 229px !important;
     }
     .border{
-        max-width: 219px;
-        height: 155px;
-        bottom: 40px;
+        max-width: 219px !important;
+        height: 155px !important;
+        bottom: 40px !important;
     }
     .Oder{
-        gap: 40px;
-        margin-top: 10px;
+        gap: 40px !important;
+        margin-top: 10px !important;
     }
     .lineclickpage4 img{
         max-width: 396px;
     }
     .lineclickpage4{
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
     .interexpress img{
-        max-width: 426px;
+        max-width: 426px !important;
     }
     .interexpress{
-        max-width: 426px;
-        margin-top: 30px;
+        max-width: 426px !important;
+        margin-top: 30px !important;
     }
     .service{
         margin-left: 109px !important;
@@ -419,8 +425,8 @@ ul{
         margin-left: 0;
     }
     .page2about{
-        max-width: 321px;
-        margin-top: 20px;
+        max-width: 321px !important;
+        margin-top: 20px !important;
     }
     .menukale{
         flex-direction: column;
@@ -438,8 +444,8 @@ ul{
         flex-direction: column;
     }
     .textpage4{
-        font-size: 20px;
-        margin-top: 0;
+        font-size: 20px !important;
+        margin-top: 0 !important;
         text-align: center;
     }
     .textpage4 div:first-child{
@@ -449,13 +455,13 @@ ul{
     .Oder{
         flex-direction: column;
         align-items: center;
-        gap: 0;
+        gap: 0 !important;
     }
     .lineclickpage4 img{
-        max-width: 200px;
+        max-width: 200px !important;
     }
     .interexpress img, .interexpress{
-        max-width: 313px;
+        max-width: 313px !important;
     }
 
 }
