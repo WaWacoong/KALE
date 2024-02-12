@@ -203,12 +203,21 @@ ul{
     font-size: 24px;
     font-family: 'Roboto';
   }
+  .wellkale2{
+    display: none;
+  }
 @media only screen and (min-width: 835px){
     .ham-menu{
         display: none;
     }
 }
 @media screen and (max-width: 835px){
+    .wellkale1{
+        display: none;
+    }
+    .wellkale2{
+        display: block;
+    }
     .menu, .Vector{
         display: none;
     }
@@ -384,9 +393,7 @@ ul{
     }
 }
 @media only screen and (max-width: 391px){
-    .ham-menu{
-        right: -2rem;
-    }
+    
     .banner{
         height: 200px !important;
     }
@@ -401,6 +408,54 @@ ul{
     }
     .banner .item3{
         max-width: 230px !important;
+    }
+    .Aboutkale{
+        font-size: 32px;
+    }
+    .about1{
+        margin-left: 20px;
+    }
+    ul{
+        margin-left: 0;
+    }
+    .page2about{
+        max-width: 321px;
+        margin-top: 20px;
+    }
+    .menukale{
+        flex-direction: column;
+    }
+    .kalepage3{
+        left: 120px !important;
+        top: 90px !important;
+    }
+    .banner .kalepage3-1 {
+        left: 220px !important;
+        top: -10px;
+        transform: rotate(359deg);
+    }
+    .content-page3{
+        flex-direction: column;
+    }
+    .textpage4{
+        font-size: 20px;
+        margin-top: 0;
+        text-align: center;
+    }
+    .textpage4 div:first-child{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .Oder{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .lineclickpage4 img{
+        max-width: 200px;
+    }
+    .interexpress img, .interexpress{
+        max-width: 313px;
     }
 
 }
