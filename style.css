@@ -308,6 +308,7 @@ ul{
     .kalepage, .kalepage img{
        max-width: 304px !important; 
        height: 109px !important;
+       object-fit: cover;
     }
     .menukale{
         gap: 40px !important;
